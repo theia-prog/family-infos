@@ -1,0 +1,73 @@
+#head {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center; 
+    margin-top: 55px;
+    margin-bottom: 25px; 
+}
+
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    padding: 20px;
+}
+
+#papa, #mama, #kate, #thea, #ping, #ger, #cat1, #cat2, #cat3, #cat4, #dog1, #dog2 {
+    border: 2px solid;        
+    padding: 15px;
+    border-radius: 6px;
+    font-family: Arial, sans-serif;
+}
+
+.profile-card {
+    flex: 1 1 calc(50% - 20px);
+    min-width: 300px;
+    max-width: 450px;
+    margin: 0;
+}
+
+.card-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.card-header h2 {
+    margin: 0;
+    font-size: 35px;
+}
+
+.profile-pic {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    background-color: #bdc3c7;
+}
+
+#papa, #mama {
+    border-color: #2c3e50;
+    background-color: #f4f6f7;
+}
+
+#kate, #thea, #ping, #ger {
+    border-color: #16a085;
+    background-color: #e8f8f5;
+}
+
+#cat1, #cat2, #cat3, #cat4, #dog1, #dog2 {
+    border-color: #d35400;
+    background-color: #fdf2e9;
+}
+
+.role-tag {
+    display: inline-block;
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 1px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: #7f8c8d;
+}
